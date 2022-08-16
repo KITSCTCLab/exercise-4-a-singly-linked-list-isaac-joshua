@@ -24,7 +24,7 @@ class Node:
         -> next - link to next node
     """
 
-    def __init__(self, data=None, next=None):
+    def __init__(self, next=None):
         """
         Initialises the Node with given attributes
         """
